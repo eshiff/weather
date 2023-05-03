@@ -1,9 +1,9 @@
 # Weather Dashboard
 ## Table of Contents
 1.[Description and Purpose](#description)
-2.[User Story](#installation)
+2.[User Story](#userstory)
 3.[Usage](#usage)
-4.[Contribution](#contribution)
+4.[Screenshot](#screenshot)
 5.[License](#license)
 6.[Questions](#questions)
 ## Description
