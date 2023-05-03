@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+
+    <!--This line of code creates a header element in HTML with a light-colored background, white text, centered content, and padding at the top and bottom. It applies several CSS classes to the header element, which define the styling for the element, such as its width, background color, text color, and padding.-->
+    <header class="container-fluid text-center text-white bg-light p-2">
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <aside class="col-lg-3 bg-light">
+                <h5 class="mt-1">Search for a City:</h5>
+                <div class="form-inline form-group">
+                    <input class="form-control" type="text" id="search-value" />
+                    <button class="btn btn-primary" id="search-button"> <i class="fa fa-search"></i> </button>
+                </div>
+
+                <!--This line of code creates an unordered list element in HTML with two CSS classes - "list-group" and "history". These classes apply pre-defined and custom styles to the list, such as adding borders and padding.-->
+                <ul class="list-group history"></ul>
+            </aside>
+
+            <div class="col-lg-9">
+                <div id="today" class="mt-3"></div>
+                <div id="forecast" class="card-deck mt-3"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--This line of code is used to include the jQuery library in a web page, which allows the page to use jQuery functions and methods. It specifies the location of the jQuery library file using the "src" attribute and loads the JavaScript file into the HTML document using the "script" tag.-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

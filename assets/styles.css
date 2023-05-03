@@ -1,0 +1,11 @@
+/* this code is used to position the "forecast" element in a specific location on the web page, specifically 3% to the left of its parent container. */
+#forecast {
+    position: absolute;
+    left: -3%;
+}
+
+/* this code applies specific styles to all "h1" elements on the web page, including setting the bottom margin to 0% and applying a gradient background with three colors. */
+h1 {
+    margin-bottom: 0%;
+    background-image: linear-gradient(to right, rgb(241, 8, 8), rgb(24, 23, 23) , rgb(252, 252, 255));
+}
