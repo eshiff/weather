@@ -15,7 +15,5 @@ SO THAT I can plan a trip accordingly
 ## Usage
 Functions that you will use to to use the application once you have installed it:
 local storage, third party APIs
-## Contribution
-You can contribute to this application by opening a pull request at github.com/eshiff/weather.  Currently there are no rules or standards for contribution.
 ## Screenshot
-##Website
+## Website
