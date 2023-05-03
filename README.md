@@ -1,14 +1,14 @@
 # Weather Dashboard
 ## Table of Contents
 1.[Description and Purpose](#description)
-2.[Installation](#installation)
+2.[User Story](#installation)
 3.[Usage](#usage)
 4.[Contribution](#contribution)
 5.[License](#license)
 6.[Questions](#questions)
 ## Description
 This is a weather dashboard that uses a Third-party API to display the current weather, as well as a 5 day forecast.
-##User Story
+## User Story
 AS A traveler
 I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
